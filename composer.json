@@ -1,18 +1,25 @@
 {
-    "name": "vladislavg123/mvc",
-    "description": "asd",
-    "license": "MIT",
-    "require": {
-        "klein/klein": "^2.1",
-        "filp/whoops": "^2.7",
-        "catfan/medoo": "^1.7"
-    },
-    "autoload": {
-        "psr-4": {
-            "": "./app"
-        },
-        "files": [
-            "./app/helpers.php"
-        ]
+  "name": "dinara/mvc",
+  "description": "MvcLesson",
+  "license": "MIT",
+  "authors": [
+    {
+      "name": "dinara",
+      "email": "dinara_myrzabek@mail.ru"
     }
+  ],
+  "require": {
+    "php": "^7.1",
+    "klein/klein": "^2.1",
+    "filp/whoops": "^2.7",
+    "catfan/medoo": "^1.7"
+  },
+  "autoload": {
+    "psr-4": {
+      "": "./app"
+    },
+    "files": [
+      "./app/helpers.php"
+    ]
+  }
 }
